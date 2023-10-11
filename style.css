@@ -1,0 +1,28 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: linear-gradient(white, darkGray);
+}
+header,nav,section,footer {
+    background-color: lightblue;
+    border-style: 1;
+    margin: 10px; 
+    width: 90%;
+    padding: 20px;
+    display: block;
+    border-radius: 20px;
+} 
+header{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7),
+        url(img/fondo.png)
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    text-decoration: none ;
+    
+}
